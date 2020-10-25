@@ -1,0 +1,19 @@
+{
+  "name": "kkkuangblog",
+  "version": "1.0.0",
+  "description": "kcy knowledge",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "159753"
+  ],
+  "author": "kcy",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
