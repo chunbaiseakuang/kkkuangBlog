@@ -94,6 +94,19 @@ module.exports = {
           ]
         }
       ],
+      '/JavaScript/':[
+        {
+          title:'JavaScript',
+          children:[
+            { title: '01.JavaScript深入之词法作用域和动态作用域', path:'/JavaScript/01.JavaScript深入之词法作用域和动态作用域'},
+            { title: '02.JavaScript深入之从原型到原型链', path:'/JavaScript/02.JavaScript深入之从原型到原型链'},
+          ]
+        }
+      ]
+
+
+
+
       // // docs文件夹下面的algorithm文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
       // '/algorithm/': [
       //   '/algorithm/', 
