@@ -101,7 +101,7 @@ module.exports = {
             { title: '01.JavaScript深入之词法作用域和动态作用域', path:'/JavaScript/01.JavaScript深入之词法作用域和动态作用域'},
             { title: '02.JavaScript深入之从原型到原型链', path:'/JavaScript/02.JavaScript深入之从原型到原型链'},
             { title: '03.JavaScript深入闭包', path:'/JavaScript/03.JavaScript深入闭包'},
-            { title: 'JavaScript深入this', path:'/JavaScript/JavaScript深入this'},
+            { title: '04.JavaScript深入this', path:'/JavaScript/04.JavaScript深入this'},
           ]
         }
       ]
