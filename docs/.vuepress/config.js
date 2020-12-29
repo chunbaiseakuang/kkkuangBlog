@@ -7,6 +7,10 @@ module.exports = {
       rel: 'icon',
       href: '/img/jennie1.ico'
     }], // 增加一个自定义的 favicon(网页标签的图标)
+    ['meta', {
+      name: 'referrer',
+      content: 'no-referrer'
+    }], 
   ],
   // base: '/web_accumulate/', // 这是部署到github相关的配置 下面会讲
   markdown: {
@@ -32,7 +36,11 @@ module.exports = {
       {
         text: 'JavaScript',
         link: '/JavaScript/'
-      }, // 外部链接
+      },
+      {
+        text: 'Vue',
+        link: '/Vue/'
+      },
       // 下拉列表
       {
         text: 'GitHub',
@@ -104,6 +112,15 @@ module.exports = {
             { title: '04.JavaScript深入this', path:'/JavaScript/04.JavaScript深入this'},
             { title: '05.JavaScript深入之从原型到原型链', path:'/JavaScript/05.JavaScript深入之从原型到原型链'},
             { title: '06.JavaScript深浅拷贝', path:'/JavaScript/06.JavaScript深浅拷贝'},
+          ]
+        }
+      ],
+      '/Vue/':[
+        {
+          title:'Vue',
+          children:[
+            { title: '01.MVVM', path:'/Vue/01.MVVM'},
+            { title: '02.Vue基础知识', path:'/Vue/02.Vue基础知识'},
           ]
         }
       ]
