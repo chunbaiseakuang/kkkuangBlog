@@ -31,7 +31,7 @@ module.exports = {
       },
       {
         text: 'CSS',
-        link: 'http://obkoro1.com'
+        link: '/CSS/'
       }, // 内部链接 以docs为根目录
       {
         text: 'JavaScript',
@@ -121,6 +121,14 @@ module.exports = {
           children:[
             { title: '01.MVVM', path:'/Vue/01.MVVM'},
             { title: '02.Vue基础知识', path:'/Vue/02.Vue基础知识'},
+          ]
+        }
+      ],
+      '/CSS/':[
+        {
+          title:'CSS',
+          children:[
+            { title: 'CSS知识点1', path:'/CSS/CSS知识点1'},
           ]
         }
       ]
