@@ -41,6 +41,10 @@ module.exports = {
         text: 'Vue',
         link: '/Vue/'
       },
+      {
+        text: '工程化',
+        link: '/work/'
+      },
       // 下拉列表
       {
         text: 'GitHub',
@@ -129,6 +133,14 @@ module.exports = {
           title:'CSS',
           children:[
             { title: 'CSS知识点1', path:'/CSS/CSS知识点1'},
+          ]
+        }
+      ],
+      '/work/':[
+        {
+          title:'工程化',
+          children:[
+            { title: 'npm install 原理', path:'/work/npm install 原理'},
           ]
         }
       ]
